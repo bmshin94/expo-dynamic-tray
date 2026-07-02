@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/d70c7ff7-3f54-4e02-bf37-a5da3264410b
-
 # expo-dynamic-tray
 
 A morphing, keyboard-aware bottom-sheet **tray** for React Native.
