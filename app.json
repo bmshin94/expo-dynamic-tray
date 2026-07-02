@@ -8,7 +8,9 @@
     "scheme": "expodynamictray",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.rit3zh.expo-dynamic-tray",
+      "appleTeamId": "5CRK3U48GP"
     },
     "android": {
       "adaptiveIcon": {
@@ -34,7 +36,9 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true,

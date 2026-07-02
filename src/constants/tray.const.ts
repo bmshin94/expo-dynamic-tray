@@ -1,0 +1,20 @@
+import { Easing } from "react-native-reanimated";
+
+const EXTRA_OFFSET = 45;
+const VIEW_EASING = Easing.bezier(0.26, 0.08, 0.25, 1);
+const CLOSE_EASING = Easing.bezier(0.55, 0, 1, 0.45);
+const VIEW_TRANSITION_DURATION = 370;
+const VIEW_ENTER_SCALE = 0.96;
+const DEFAULT_CLOSE_THRESHOLD = 110;
+const PRESENT_TRAVEL = 1000;
+const PRESENT_START_SCALE = 0.94;
+export {
+  CLOSE_EASING,
+  DEFAULT_CLOSE_THRESHOLD,
+  EXTRA_OFFSET,
+  PRESENT_START_SCALE,
+  PRESENT_TRAVEL,
+  VIEW_EASING,
+  VIEW_ENTER_SCALE,
+  VIEW_TRANSITION_DURATION,
+};
